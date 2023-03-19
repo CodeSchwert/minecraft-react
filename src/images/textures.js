@@ -1,11 +1,5 @@
 import { TextureLoader } from 'three';
-import {
-  dirtImg,
-	grassImg,
-	glassImg,
-	woodImg,
-	logImg,
-} from './images';
+import { dirtImg, grassImg, glassImg, woodImg, logImg } from './images';
 
 const dirtTexture = new TextureLoader().load(dirtImg);
 const grassTexture = new TextureLoader().load(grassImg);
@@ -20,5 +14,5 @@ export {
   glassTexture,
   woodTexture,
   logTexture,
-  groundTexture
+  groundTexture,
 };
